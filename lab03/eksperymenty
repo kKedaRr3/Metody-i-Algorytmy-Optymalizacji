@@ -1,0 +1,165 @@
+knapsack1 = 8..8
+knapsack2 = {6,7,9}
+knapsack3 = {1,2,3,4,5,10}
+total profit = 4043
+
+0,130s
+
+
+
+knapsack1 = 10..10
+knapsack2 = {5,6,8,9}
+knapsack3 = {1,2,3,4,7}
+total profit = 3813
+
+0,172s
+
+
+
+knapsack1 = {}
+knapsack2 = {4,8,9,10,11}
+knapsack3 = {1,2,3,5,6,7}
+total profit = 4801
+
+0,411s
+
+
+
+knapsack1 = 8..10
+knapsack2 = {6,7,13}
+knapsack3 = {2,3,4,5,12}
+total profit = 6943
+
+1,001s
+
+
+
+knapsack1 = {8,9,11,13}
+knapsack2 = {4,5,7,12}
+knapsack3 = {1,2,3,6}
+total profit = 6743
+
+2,412s
+
+
+
+knapsack1 = {9,10,12,13}
+knapsack2 = {6,7,11,14,15}
+knapsack3 = {1,2,3,4,5,8}
+total profit = 9436
+
+8,657s
+
+
+
+knapsack1 = {11,13,15,16}
+knapsack2 = {8,10,12}
+knapsack3 = {1,3,5,7,14}
+total profit = 5160
+
+5,194s
+
+
+
+knapsack1 = {8,11,14}
+knapsack2 = {5,7,13,15}
+knapsack3 = {1,2,3,16}
+total profit = 8247
+
+22,736s
+
+
+
+knapsack1 = {2,4,8,15}
+knapsack2 = {10,13,17}
+knapsack3 = {1,3,5,11,16}
+total profit = 8081
+
+68,041s
+
+
+
+knapsack1 = {9,10,13,15,17}
+knapsack2 = {6,7,14}
+knapsack3 = {1,2,3,4,5,8,12}
+total profit = 8272
+
+37,822s
+
+
+
+
+
+
+
+
+###############
+TABU SEARCH
+###############
+
+
+dla zestawu 8 z .dzn
+
+Results for different tabu tenures:
+Tabu Tenure = 5: Best Objective = 8198
+Plecak 1 zawiera przedmioty o indeksach: [3, 5, 11, 16]
+Plecak 2 zawiera przedmioty o indeksach: [1, 7, 8, 10]
+Plecak 3 zawiera przedmioty o indeksach: [2, 13, 15]
+
+Tabu Tenure = 2: Best Objective = 8198
+Plecak 1 zawiera przedmioty o indeksach: [8, 11, 16]
+Plecak 2 zawiera przedmioty o indeksach: [5, 7, 13, 15]
+Plecak 3 zawiera przedmioty o indeksach: [1, 2, 3, 10]
+
+Tabu Tenure = 1: Best Objective = 7187
+Plecak 1 zawiera przedmioty o indeksach: [1, 3, 6]
+Plecak 2 zawiera przedmioty o indeksach: [4, 7, 15, 16]
+Plecak 3 zawiera przedmioty o indeksach: [2, 5, 10, 11]
+
+
+dla zestawu 9 z .dzn
+
+Results for different tabu tenures:
+Tabu Tenure = 5: Best Objective = 7433
+Plecak 1 zawiera przedmioty o indeksach: [4, 8, 10]
+Plecak 2 zawiera przedmioty o indeksach: [2, 3, 6]
+Plecak 3 zawiera przedmioty o indeksach: [1, 5, 7, 15]
+
+Tabu Tenure = 2: Best Objective = 7522
+Plecak 1 zawiera przedmioty o indeksach: [1, 2, 4, 8]
+Plecak 2 zawiera przedmioty o indeksach: [7, 11, 15]
+Plecak 3 zawiera przedmioty o indeksach: [3, 5, 6]
+
+Tabu Tenure = 1: Best Objective = 7433
+Plecak 1 zawiera przedmioty o indeksach: [1, 6, 8, 15]
+Plecak 2 zawiera przedmioty o indeksach: [5, 7, 10]
+Plecak 3 zawiera przedmioty o indeksach: [2, 3, 4]
+
+
+
+
+dla zestawu 10 z .dzn
+
+Tabu Tenure = 5: Best Objective = 8272
+Plecak 1 zawiera przedmioty o indeksach: [2, 3, 4, 10, 13]
+Plecak 2 zawiera przedmioty o indeksach: [6, 9, 12, 15, 17]
+Plecak 3 zawiera przedmioty o indeksach: [1, 5, 7, 8, 14]
+
+Tabu Tenure = 2: Best Objective = 8272
+Plecak 1 zawiera przedmioty o indeksach: [1, 3, 5, 8, 9]
+Plecak 2 zawiera przedmioty o indeksach: [4, 6, 7, 12]
+Plecak 3 zawiera przedmioty o indeksach: [2, 10, 13, 14, 15, 17]
+
+Tabu Tenure = 1: Best Objective = 8265
+Plecak 1 zawiera przedmioty o indeksach: [1, 2, 7, 9, 12]
+Plecak 2 zawiera przedmioty o indeksach: [4, 8, 13, 14, 16]
+Plecak 3 zawiera przedmioty o indeksach: [3, 5, 6, 10]
+
+
+
+
+
+
+
+
+
