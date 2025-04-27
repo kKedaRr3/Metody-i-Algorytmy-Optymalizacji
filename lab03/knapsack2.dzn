@@ -1,6 +1,0 @@
-ITEM = 1..5;
-capacity1 = 200;
-capacity2 = 100;
-capacity3 = 220;
-profits = [1300,1000,520,480,325];
-weights = [90,72,43,40,33];
